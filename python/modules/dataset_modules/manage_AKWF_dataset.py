@@ -20,9 +20,9 @@ class AKWF_Dataset(DatasetFromGit):
 
     Attributes
     """
-    def __init__(self, save_dir):
+    def __init__(self, repo_name, save_dir):
         git_url = "https://github.com/KristofferKarlAxelEkstrand/AKWF-FREE.git"
-        super(AKWF_Dataset, self).__init__(git_url, save_dir)
+        super(AKWF_Dataset, self).__init__(git_url, repo_name, save_dir)
 
 
         
