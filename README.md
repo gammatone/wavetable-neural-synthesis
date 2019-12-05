@@ -21,19 +21,29 @@ $ .\my_venv_name\Scripts\activate
 
 *pip*
 ```
-$ python3 -m pip install --upgrade pip
+$ pip install --upgrade pip
 ```
 *tensorflow*
 
 If you have a **compatible GPU**:
 ```
-$ python3 -m pip install --upgrade tensorflow-gpu
+$ pip install --upgrade tensorflow-gpu
 ```
 See [here](https://www.tensorflow.org/guide/gpu) to test that TensorFlow is using the GPU.
 
 Else:
 ```
-$ python3 -m pip install --upgrade tensorflow
+$ pip install --upgrade tensorflow
+```
+
+*librosa*
+```
+$ pip install --upgrade librosa
+```
+
+*matplotlib*
+```
+$ pip install --upgrade matplotlib
 ```
 
 When done with virtual environment:
